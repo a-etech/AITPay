@@ -1,6 +1,6 @@
 # aitpay
 
-A new Flutter project.
+A Flutter project for student fee-paying Android mobile app.
 
 ## Getting Started
 
