@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services" // Add this line for Firebase services
+}
+
+android {
+    namespace = "com.example.aitpay"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId "com.example.aitpay"
+        minSdkVersion 23  // Ensure this matches your project requirements
+        targetSdkVersion 33  // Ensure this is up-to-date
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug  // Use debug signing for now
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0' // Required for AppCompat
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    // Add Firebase BOM
+    implementation platform('com.google.firebase:firebase-bom:33.5.1') // Use the latest version
+
+    // Add Firebase libraries
+    implementation 'com.google.firebase:firebase-analytics-ktx' // Optional: Firebase Analytics
+    implementation 'com.google.firebase:firebase-auth-ktx' // Optional: Firebase Authentication
+    implementation 'com.google.firebase:firebase-firestore-ktx' // Optional: Cloud Firestore
+    // Add any other Firebase services you need
+}
+
+flutter {
+    source = "../.."
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "553855647194",
+    "firebase_url": "https://aitpay-default-rtdb.firebaseio.com",
+    "project_id": "aitpay",
+    "storage_bucket": "aitpay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553855647194:android:18eac4626b1a6a1f0bd4e3",
+        "android_client_info": {
+          "package_name": "com.example.aitpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553855647194-73siskknjunlkt2ch5fg4dkegbk1rlki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aitpay",
+            "certificate_hash": "e9360aeadce2dbb3d9b36f46c886974d473ad6aa"
+          }
+        },
+        {
+          "client_id": "553855647194-dkd2g1d42clc94o4j3s6bd5jl83in062.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8QqzMBZHYLYS3utj5C7RaijeQSZMt9oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553855647194-dkd2g1d42clc94o4j3s6bd5jl83in062.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

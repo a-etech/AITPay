@@ -1,0 +1,40 @@
+{
+  "payments": [
+    {
+      "id": "1",
+      "course": "Computer Science",
+      "level": "200",
+      "paymentMode": "Bank Payment",
+      "amount": "1000 Ghs",
+      "platform": "Bank",
+      "bankName": "First Bank",
+      "schoolAccount": "AIT12345",
+      "mobileMoneyProvider": null,
+      "studentId": "STU001",
+      "date": "2024-10-18"
+    }
+  ],
+  "users": [
+    {
+      "id": "785b",
+      "studentId": "ads22a00065y",
+      "email": "edwardabraham446@gmail.com",
+      "phone": "0540413520",
+      "password": "aa"
+    },
+    {
+      "id": "b60a",
+      "studentId": "eng123456789",
+      "email": "edwardabraham446@gmail.com",
+      "phone": "0533340869",
+      "password": "aa"
+    },
+    {
+      "id": "58c3",
+      "studentId": "abs123456789",
+      "email": "edwardabraham446@gmail.com",
+      "phone": "0209082167",
+      "password": "sa"
+    }
+  ]
+}
